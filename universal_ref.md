@@ -138,6 +138,8 @@ To learn more about, universal reference and rvalue reference:
 
 > * http://www.devbb.net/viewtopic.php?f=21&t=57
 > * http://itguru.tistory.com/189
+> * [What does T&& mean in c++?](http://stackoverflow.com/questions/5481539/what-does-t-double-ampersand-mean-in-c11)
+> * [Passing int&& to f(int&&)](http://stackoverflow.com/questions/35314093/passing-int-to-fint)
 
 
 <br/>
