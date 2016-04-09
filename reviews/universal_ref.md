@@ -9,7 +9,7 @@ lvalue는 지속성이 있는 값이고, rvalue는 지속성이 없는 값을 �
 
 인터넷에 많은 예제와 함께 lvalue와 rvalue에 대해서 나오므로 예제와 함께한 설명은 넘어가겠다. 이렇게 lvalue를 참조하는 것을 lvalue reference, rvalue를 참조하는 것을 rvalue reference라고 한다. 
 
-하지만 modern C++에서는 universal reference 라는 개념을 알아둘 필요가 있다. (C++ 포럼에서는 forward reference라고 사용하는데 Scott Myers(effective C++ 저자)는 forward reference말고 universal reference라고 사용하는데 자신이 만든 명칭이라 한다.) universal은 전 세계의, 보편적인, 우주의 등등 사전적 의미가 있는데, modern C++에서는 보편적인란 단어가 어울리겠다. 즉, 보편적인 참조라는 뜻이다. 즉, lvalue도 될 수 있고, rvalue가 될 수도 있는 참조형식이라는 것이다. 한가지 예를 들어보겠다.
+하지만 modern C++에서는 universal reference 라는 개념을 알아둘 필요가 있다. (C++ 포럼에서는 forward reference라고 사용하는데 Scott Meyers(effective C++ 저자)는 forward reference말고 universal reference라고 사용하는데 자신이 만든 명칭이라 한다.) universal은 전 세계의, 보편적인, 우주의 등등 사전적 의미가 있는데, modern C++에서는 보편적인란 단어가 어울리겠다. 즉, 보편적인 참조라는 뜻이다. 즉, lvalue도 될 수 있고, rvalue가 될 수도 있는 참조형식이라는 것이다. 한가지 예를 들어보겠다.
 
 
 ```c++
@@ -138,6 +138,7 @@ To learn more about, universal reference and rvalue reference:
 
 > * http://www.devbb.net/viewtopic.php?f=21&t=57
 > * http://itguru.tistory.com/189
+> * [Scott Meyers](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
 > * [What does T&& mean in c++?](http://stackoverflow.com/questions/5481539/what-does-t-double-ampersand-mean-in-c11)
 > * [Passing int&& to f(int&&)](http://stackoverflow.com/questions/35314093/passing-int-to-fint)
 
